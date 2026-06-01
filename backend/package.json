@@ -1,0 +1,18 @@
+{
+  "name": "aems-backend-v5",
+  "version": "5.0.0",
+  "private": true,
+  "description": "AEMS V5 Backend - ASP.NET Core 8 WebAPI",
+  "repository": "https://github.com/aems/aems-backend-v5",
+  "scripts": {
+    "restore": "dotnet restore",
+    "build": "dotnet build",
+    "run": "dotnet run --project src/AEMS.Api",
+    "watch": "dotnet watch --project src/AEMS.Api",
+    "test": "dotnet test",
+    "migrate": "dotnet ef migrations add",
+    "db-update": "dotnet ef database update --project src/AEMS.Infrastructure --startup-project src/AEMS.Api",
+    "db-drop": "dotnet ef database drop --project src/AEMS.Infrastructure --startup-project src/AEMS.Api"
+  },
+  "notes": "后端使用 .NET CLI 进行构建和运行。请确保已安装 .NET 8 SDK。"
+}

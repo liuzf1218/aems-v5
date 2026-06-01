@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="AEMS.Api/AEMS.Api.csproj" />
+  <Project Path="AEMS.Core/AEMS.Core.csproj" />
+  <Project Path="AEMS.Infrastructure/AEMS.Infrastructure.csproj" />
+</Solution>
